@@ -1,6 +1,6 @@
 # shira #
 
-![Shira cat icon](./shira128x128.png){ width=100% }
+![Shira cat icon](./shira128x128.png)
 
 **shira** is an extension of the command-not-found-function, often provided with bash.
 
@@ -22,6 +22,15 @@ At least, when she isn't lazy and only hits <enta><enta><enta><enta>.
 
 This code is licensed under the GPLv3 - I hope you find it useless.
 
+##	Version 0.2 ##
+
+### Added playing a sound ###
+
+## DONE ##
+
+ - create an audiofile to play instead of echo, since the reading abilities
+	of most cats aren't quiet there, to appreciate the greating.
+
 ##	Version 0.1 ##
 
 ### Initial commit ###
@@ -42,6 +51,17 @@ it is most likely not very impressed by this effort.
 If your cat happens to have a name, differnt from Shira, modify
 the assignment to the variable katze and replace it with the name of your
 cat. Alternatively: Rename your cat to Shira. Either will work.
+
+## DEPENDENCIES ##
+
+Playing a sound depends on `aplay`. Recording it previously from `arecord` or
+something similar, of course.
+
+ * Example:
+
+	arecord -d 3 HelloMyCat.wav
+
+takes 3 s of audio from the microphone and stores it in HelloMyCat.wav.
 
 ## ACKNOWLEDGEMENTS ##
 
