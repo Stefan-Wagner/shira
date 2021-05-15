@@ -10,6 +10,8 @@
 #
 #	This code is licensed under the GPLv3 - I hope you find it useless.
 #
+#	Version 0.3 Bugfix: Added anchors for regex ^ and $. 
+#
 #	Version 0.2 added sound play
 # 	@DONE: create an audiofile to play instead of echo, since the reading abilities
 #		of most cats aren't quiet there, to appreciate the greating.
@@ -32,7 +34,7 @@ katze=Shira
 #
 function command_not_found_handle {
 	# check because c-n-f could've been removed in the meantime
-	if [[ $1 =~ [0,+]+ ]]
+	if [[ $1 =~ ^[0,+]+$ ]]
 	then
 		echo hallo $katze
 		aplay ~/lib/helloMyCat.wav 2>/dev/null &
