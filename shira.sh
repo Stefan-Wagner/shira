@@ -10,6 +10,8 @@
 #
 #	This code is licensed under the GPLv3 - I hope you find it useless.
 #
+#	Version 0.4 added a man page.
+#
 #	Version 0.3 Bugfix: Added anchors for regex ^ and $. 
 #
 #	Version 0.2 added sound play
