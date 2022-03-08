@@ -7,7 +7,7 @@
 ## RATIONALE ##
 
 Cat owners often experience, that the cat performs its own input, mainly on the lower
-left corner of the keyboard, where they scratch their head. Accidentally they perform
+right corner of the keyboard, where they scratch their head. Accidentally they perform
 input to the shell (if you happen to work a lot in the shell - else they do it in
 the writer/editor/eclipse/whatever) which need their ownn treatment for this issue,
 which is almost always responded in a not too welcoming way like .
