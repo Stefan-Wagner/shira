@@ -41,7 +41,7 @@ Options
 FILES
 =====
 
-/home/USER/lib/helloMyCat.wav
+/home/$USER/lib/helloMyCat.wav
 
 :   Audio file to play, when cat is estimated. You might choose a different location,
 if you modify the script accordingly.
